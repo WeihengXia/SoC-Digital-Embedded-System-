@@ -1,0 +1,5 @@
+main.c -E -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork 
+-I D:\keil_C51\ARM\RV31\INC
+-I D:\keil_C51\ARM\CMSIS\Include
+
+-o .\temp_files\main.i
